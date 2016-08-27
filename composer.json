@@ -1,0 +1,20 @@
+{
+    "name": "iyuyoung/geetest",
+    "description": "geetest package for thinkphp5",
+    "authors": [
+        {
+            "name": "yuyoung",
+            "email": "892887001@qq.com"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "think\\geetest\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
