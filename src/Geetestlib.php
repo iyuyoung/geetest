@@ -22,7 +22,7 @@ class GeetestLib {
     public static $connectTimeout = 1;
     public static $socketTimeout  = 1;
     private $response;
-    public function __construct($config) {
+    public function __construct($config=[]) {
         $this->captcha_id  = empty($config['captcha_id'])?0:$config['captcha_id'];
         $this->private_key = empty($config['private_key'])?0:$config['private_key'];
     }
