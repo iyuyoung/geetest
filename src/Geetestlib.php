@@ -15,8 +15,9 @@
  * @author Tanxu
  */
 namespace think\geetest;
-use think\Config;
-
+use think\Config; 
+  
+  
 class GeetestLib {
     const GT_SDK_VERSION = 'php_3.2.0';
     public static $connectTimeout = 1;

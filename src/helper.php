@@ -14,6 +14,7 @@
  *
  * @return bool
  */
+
 function geetest($config = [])
 {
     $config = empty($config) ? \think\Config::get('geetest') : $config;
